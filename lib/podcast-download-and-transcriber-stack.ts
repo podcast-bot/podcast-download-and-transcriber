@@ -8,11 +8,11 @@ export class PodcastDownloadAndTranscriberStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
 
-    const queue = new sqs.Queue(this, 'PodcastDownloadAndTranscriberQueue', {
+    const queue = new sqs.Queue(this, 'PodcastDownloadAndTranscriber-Podcast-to-Episode-Queue', {
       visibilityTimeout: Duration.seconds(300)
     });
 
-    const topic = new sns.Topic(this, 'PodcastDownloadAndTranscriberTopic');
+    const topic = new sns.Topic(this, 'PodcastDownloadAndTranscriber-Podcast-to-Episode-Topic');
 
     topic.addSubscription(new subs.SqsSubscription(queue));
   }
