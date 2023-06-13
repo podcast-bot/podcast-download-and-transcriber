@@ -20,11 +20,22 @@
     "typescript": "~5.0.4"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigatewayv2": "1.203.0",
+    "@aws-cdk/aws-dynamodb": "1.203.0",
+    "@aws-cdk/aws-lambda": "1.203.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.203.0",
     "@aws-sdk/client-dynamodb": "^3.350.0",
     "@aws-sdk/client-lambda": "^3.350.0",
+    "@aws-sdk/client-sns": "^3.350.0",
     "aws-cdk-lib": "2.83.1",
+    "aws-lambda": "^1.0.7",
     "aws-sdk": "^2.1395.0",
     "cdk-dynamo-table-viewer": "^0.2.469",
-    "constructs": "^10.0.0"
+    "constructs": "^10.0.0",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.3.1",
+    "node-podcast-parser": "^2.3.0",
+    "podcast-downloader": "^1.0.2",
+    "rss-parser": "^3.13.0"
   }
 }
