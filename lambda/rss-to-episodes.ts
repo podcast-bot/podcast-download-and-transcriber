@@ -21,7 +21,7 @@ function downloadPodcast(url: string, limit: number) {
     getRSS(url)
       .then((rss: any) => {
         console.log(`rss: ${rss}`);
-        const podcast = { ...rss, items: undefined };
+        const podcast = { ...rss, episodes: undefined };
         let downloadEpisodes: any[] = [];
         let episodes = limit == 0 ? rss.episodes : rss.episodes.slice(0, limit);
         console.log(`episodes: ${episodes}`);
