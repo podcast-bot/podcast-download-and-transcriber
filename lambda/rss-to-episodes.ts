@@ -8,7 +8,7 @@ exports.handler = async function (event: any) {
   console.log("podcast rss: ", process.env.RSS_FEED_URL);
   console.log("topic arn: ", process.env.TOPIC_ARN);
 
-  await downloadPodcast(process.env.RSS_FEED_URL!, 10);
+  await downloadPodcast(process.env.RSS_FEED_URL!, 0);
 };
 
 function downloadPodcast(url: string, limit: number) {
