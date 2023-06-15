@@ -1,0 +1,33 @@
+{
+  "podcast": {
+    "categories": ["Comedy"],
+    "title": "Tell 'Em Steve Dave EP. 1-299",
+    "description": {
+      "long": "Tell 'Em Steve Dave EP. 1-299 (the unlisted episodes). Uploaded these so they're easily accessible for new and past listeners. THIS IS NOT THE MAIN PODCAST. You won't find new episodes here. Only the past ones that were harder to find.\n\nCover Art by Tommy Lombardozzi."
+    },
+    "link": "https://podcasters.spotify.com/pod/show/tesd1-299",
+    "language": "en-us",
+    "author": "TESD 1-299",
+    "type": "episodic",
+    "owner": { "name": "TESD 1-299", "email": "podcasts60+fa79b44@anchor.fm" },
+    "explicit": true,
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2526425/2526425-1613461946828-346e370463e1c.jpg",
+    "updated": "2021-02-25T10:51:07.000Z"
+  },
+  "episode": {
+    "title": "#001: Josh Groban Stole My Mom!",
+    "description": "Join Bryan and Walt as they bust their podcasting maidenheads with tales of love, death, and suburban witchery.",
+    "guid": "f8c0ed05-0db5-473c-a69e-de50dd07718e",
+    "published": "2021-02-15T02:28:02.000Z",
+    "enclosure": {
+      "filesize": 58207245,
+      "type": "audio/mpeg",
+      "url": "https://anchor.fm/s/fa79b44/podcast/play/26718107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2021-1-15%2F155321237-44100-2-ee995c53e3746.mp3"
+    },
+    "explicit": false,
+    "duration": 3637,
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2526425/2526425-1613461946828-346e370463e1c.jpg",
+    "episode": "1",
+    "episodeType": "full"
+  }
+}

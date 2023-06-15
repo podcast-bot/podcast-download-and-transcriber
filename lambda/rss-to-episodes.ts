@@ -27,12 +27,15 @@ function downloadPodcast(url: string, limit: number) {
         console.log(`episodes: ${episodes}`);
         const podcastPromises = episodes.map((episode: any) => {
           console.log(`episode: ${episode.title}:${episode.enclosure.url}`);
+          const messageObject = JSON.stringify({
+            podcast,
+            episode,
+          });
+
+          console.log(`messageObject: ${messageObject}`);
           const publishCommand = new PublishCommand({
             TopicArn: process.env.TOPIC_ARN,
-            Message: JSON.stringify({
-              podcast,
-              episode,
-            }),
+            Message: messageObject,
           });
           return sns
             .send(publishCommand)
